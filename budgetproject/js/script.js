@@ -30,7 +30,7 @@ for (let i = 0; i < 2; i++) {
 };
 
 
-//ЦИКЛ WHILE
+// // ЦИКЛ WHILE
 // let i = 0;
 // while (i < 2) {
 //   let mandExp = prompt("Введите обязательную статью расходов в этом месяце", ""),
@@ -40,15 +40,15 @@ for (let i = 0; i < 2; i++) {
 //       mandExp != '' && costMandExp != '' && mandExp.length < 50) {
 //       console.log("Allright");
 //       appData.expenses[mandExp] = costMandExp;
-//     } else {
+//     } /* else {
 //       alert("Введите пожалуйста реальные данные статьи расходов и затраты на нее. Название статьи расходов не должно превышать 50 символов.");
 //       --i; //не верится, что так просто...
-//     }
+//     } */
 //     i++;
 // }
 
 
-//ЦИКЛ DO..WHILE
+// ЦИКЛ DO..WHILE
 // let i = 0;
 // do {
 //   let mandExp = prompt("Введите обязательную статью расходов в этом месяце", ""),
