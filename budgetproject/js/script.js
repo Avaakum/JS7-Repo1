@@ -75,7 +75,7 @@ let appData = {
       }
     }
   },
-  chooseIncome: function() {
+  chooseIncome: function () {
 
     for (let i = 0; i < 1; i++) {
       let items = prompt("Что приносит дополнительный доход? (Перечислите через запятую все источники)", "");
@@ -84,17 +84,13 @@ let appData = {
         appData.extraIncome.push(prompt('Может что-то еще?)', ''));
         appData.extraIncome.sort();
         appData.extraIncome.forEach(function (item, x) {
-          console.log('Способы доп. заработка: ' + (x + 1) +'. ' + item);
+          console.log('Способы доп. заработка: ' + (x + 1) + '. ' + item);
         });
-
       } else {
         --i;
       }
     }
-    
 
-
- 
   }
 };
 
