@@ -1,0 +1,44 @@
+* {
+  outline: none;
+}
+.box  {
+  margin: 30px 50px 20px 0px;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+button {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+}
+.circle {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 100%;
+}
+.heart {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 170px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  color: red;
+  background-color: purple;
+  transform: rotate(45deg);
+}
+.black {
+  margin-bottom: 50px;
+  width: 200px;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
