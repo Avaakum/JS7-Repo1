@@ -8,7 +8,7 @@ let box = document.getElementById('box'), //получение элемента 
     heart = document.querySelectorAll('.heart'), //преимущества такого получения элементов:
     //обладает свойством вложенности; имеет 1 метод: forEach, перебор всех эл-ов...
     oneHeart = document.querySelector('.heart'), //получает первый такой эл-т на стр
-    wrapper = document.querySelector('.wrapper')
+    wrapper = document.querySelector('.wrapper');
 
 // console.log(box);
 // console.log(btn);
@@ -18,7 +18,7 @@ let box = document.getElementById('box'), //получение элемента 
 // console.log(oneHeart);
 
 box.style.backgroundColor = 'cyan';
-btn[1].style.borderRadius = '100%'
+btn[1].style.borderRadius = '100%';
 
 circ[0].style.backgroundColor = 'red';
 circ[1].style.backgroundColor = 'yellow';
@@ -53,7 +53,7 @@ div.classList.add('black'); //присвоили класс
 div.textContent = '<h1>hello everybody!</h1>'; //этим способом помещается
 //именно текст, это удобно например для получения инф-ии от пользователя
 //т.к. через inner возможно будет передать какой-то код, или даже 
-//вредоносный скрипт.....
+//вредоносный скрипт
 
 
 
