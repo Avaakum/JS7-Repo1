@@ -33,9 +33,9 @@ btn[0].addEventListener('click', function () {
 });
 //таким способом отрабатывают оба события
 
-btn[0].addEventListener('mouseenter', function() {
-  alert('Вы навели на 1!');
-});
+// btn[0].addEventListener('mouseenter', function() {
+//   alert('Вы навели на 1!');
+// });
 
 //получение данных об эл-е, с которым мы взаимодействуем
 //например для условий ...

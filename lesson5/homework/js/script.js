@@ -5,7 +5,7 @@ let menuItem = document.querySelectorAll('.menu-item'),
     headline = document.querySelector('#title'),
     advert  = document.querySelector('.adv'),
     columns = document.querySelectorAll('.column'),
-    answer  = document.querySelector('#prompt')
+    answer  = document.querySelector('#prompt');
 
 
 
